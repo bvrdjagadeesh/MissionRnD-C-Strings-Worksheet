@@ -20,7 +20,7 @@ int strinlen(char *str)
 
 
 char * removeSpaces(char *str) {
-	if (str == "" || str == "NULL")
+	if (str == "" || str == 0)
 	{
 		return '\0';
 	}
