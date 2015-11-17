@@ -18,7 +18,7 @@ int stringlen(char *str)
 	return i;
 }
 char KthIndexFromEnd(char *str, int K) {
-	if (str == "NULL"||str == ""|| K<0)
+	if (str ==0||str == ""|| K<0)
 	{
 		return '\0';
 	}
